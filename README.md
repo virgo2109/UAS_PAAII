@@ -6,10 +6,12 @@ Kelas B
 
 ### Analisis Algoritma Boblle sort dan selection sort :
 > Worst Case:
+
     Bubble Sort: Worst case terjadi ketika array terurut secara terbalik atau descending. Pada kasus ini, setiap elemen harus dipindahkan ke posisi yang benar dalam setiap iterasi. Kompleksitas waktu Bubble Sort pada worst case adalah O(n^2).
     Insertion Sort: Worst case terjadi ketika array terurut secara terbalik atau descending. Pada kasus ini, setiap elemen harus disisipkan ke posisi yang benar dalam setiap iterasi, dan pergeseran elemen yang ada sebelumnya juga harus dilakukan. Kompleksitas waktu Insertion Sort pada worst case adalah O(n^2).
 
 > Best Case:
+
     Bubble Sort: Best case terjadi ketika array sudah terurut secara ascending. Pada kasus ini, algoritma hanya perlu melalui satu iterasi tanpa ada pertukaran elemen. Namun, meskipun demikian, algoritma masih melakukan pengecekan untuk mengecek apakah ada pertukaran yang dilakukan atau tidak. Kompleksitas waktu Bubble Sort pada best case adalah O(n).
     Insertion Sort: Best case terjadi ketika array sudah terurut secara ascending. Pada kasus ini, algoritma hanya perlu melalui satu iterasi tanpa ada pergeseran elemen. Kompleksitas waktu Insertion Sort pada best case adalah O(n).
 
